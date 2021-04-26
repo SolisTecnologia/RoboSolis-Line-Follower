@@ -14,7 +14,7 @@ white = 48
 usb = serial.Serial('/dev/ttyACM0', 57600, timeout=0, dsrdtr=False)
 usb.flush()     # Waits data configuration
 
-usb.write(b"LT E1 RD0 GR50 BL0")    # Turn on led tape in blue
+usb.write(b"LT E1 RD0 GR50 BL0")    # Turn on led tape in green
 
 sleep(2)
 usb.write(b"MT0 MC AT100 DT100 V2") # Parameter settings for continuous mode
