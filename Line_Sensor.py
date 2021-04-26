@@ -52,7 +52,6 @@ while flag_enable == 1:
         count_bl = 0
         usb.write(b"LT E1 RD0 GR0 BL50")
         usb.write(b"MT0 ML")        # Turn left
-        print("ML2")
         sleep(0.9)
         usb.write(b"MT0 MF")
         sleep(0.2)
@@ -62,7 +61,6 @@ while flag_enable == 1:
         count_bl = 0
         usb.write(b"LT E1 RD0 GR15 BL25")
         usb.write(b"MT0 MR")        # Turn right
-        print("MR1")
         sleep(0.6)
         usb.write(b"MT0 MF")
         sleep(0.2)
@@ -72,7 +70,6 @@ while flag_enable == 1:
         count_bl = 0
         usb.write(b"LT E1 RD0 GR15 BL25")
         usb.write(b"MT0 MR")        # Turn right
-        print("MR2")
         sleep(0.9)
         usb.write(b"MT0 MF")
         sleep(0.2)
@@ -95,6 +92,8 @@ usb.write(b"MT0 ME0")               # Disables wheel motors on mode continuous
 usb.write(b"LT E1 RD0 GR0 BL0")
 sleep(0.5)
 usb.write(b"LT E1 RD50 GR0 BL0")
+sleep(0.5)
+usb.write(b"LT E1 RD0 GR0 BL0")
 sleep(0.5)
 usb.write(b"LT E1 RD50 GR0 BL0")
 sleep(0.5)
