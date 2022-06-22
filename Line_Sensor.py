@@ -1,3 +1,15 @@
+#!/usr/bin/python3
+"""
+Solis Robot - SoBot
+
+Line_Sensor.py: Programming example for the Solis robot to move following a line.
+
+Created By   : Vinicius M. Kawakami
+Version      : 1.0
+
+Company: Solis Tecnologia
+"""
+
 from time import sleep
 import serial
 
