@@ -53,4 +53,4 @@ If you have any problem when using our robot after checking the tutorial, please
 ### Technical support email: 
 contato@solistecnologia.com.br
 
-![](https://github.com/SolisTecnologia/SoBot-Line_Follower/blob/master/png/logo.png)
+![](https://github.com/SolisTecnologia/SoBot-Line-Follower/blob/master/png/logo.png)
