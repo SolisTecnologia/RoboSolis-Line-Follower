@@ -1,5 +1,5 @@
 # Solis Robot - SoBot
-![](https://github.com/SolisTecnologia/SoBot-Line-Follower/blob/master/SoBotSingle.png)
+![](https://github.com/SolisTecnologia/SoBot-Line-Follower/blob/master/png/SoBotSingle.png)
 # Introduction
 
 AMR (autonomous mobile robotics) platform equipped with a camera system, ultrasonic and photoelectric sensors, works with a high rate of precision and repeatability of its movements, as it uses stepper motors in its movement and navigation, the SoBot also can be termed as a research and development interface, as it facilitates the practical experimentation of algorithms from the simplest to the most complex level.
@@ -53,4 +53,4 @@ If you have any problem when using our robot after checking the tutorial, please
 ### Technical support email: 
 contato@solistecnologia.com.br
 
-![](https://github.com/SolisTecnologia/SoBot-Simple-Route/blob/master/png/logo.png)
+![](https://github.com/SolisTecnologia/SoBot-Line_Follower/blob/master/png/logo.png)
