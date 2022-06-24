@@ -38,6 +38,35 @@ import serial
 
 The ''time'' library is needed to generate time delays and the ''serial'' library for serial/usb Raspberry connection with the robot controller driver.
 
+### Code Description
+
+The commands used in this example to control SoBot are continuous movement commands, as follows:
+
+~~~python
+usb.write(b"MT0 MC AT100 DT100 V2") # Parameter settings for continuous mode
+usb.write(b"MT0 ME1")               # Enable continuous movement
+usb.write(b"MT0 ME0")               # Disable continuous movement
+usb.write(b"MT0 ML")                # Move left
+usb.write(b"MT0 MR")                # Move right
+usb.write(b"MT0 MB")                # Move backward
+usb.write(b"MT0 MF")                # Move Forward
+usb.write(b"MT0 MP")                # Pause movement
+~~~
+
+Commands are also used to control the lighting of the LED strip and the command to read the line sensors, as follows:
+
+~~~python
+usb.write(b"LT E1 RD0 GR50 BL0")    # Turn on led tape in green
+
+usb.write(b"SL")                    # Send command to read line sensor
+~~~
+
+The command return for reading the line sensors are stored in the Array variable **data_line**.
+
+~~~python
+data_line = usb.readline()          # Read data
+~~~
+
 For more information about the commands used, check the Robot Commands Reference Guide.
 
 
