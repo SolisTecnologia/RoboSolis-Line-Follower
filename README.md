@@ -69,6 +69,9 @@ data_line = usb.readline()          # Read data
 
 For more information about the commands used, check the Robot Commands Reference Guide.
 
+### Flowchart
+
+![](https://github.com/SolisTecnologia/SoBot-Line-Follower/blob/master/png/Flowchart_Line_Sensor.png)
 
 # Reference Link
 [SolisTecnologia website](https://solistecnologia.com.br/produtos/robotsingle)
