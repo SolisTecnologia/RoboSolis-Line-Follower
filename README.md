@@ -23,7 +23,7 @@ Several programming languages can be used to connect via API.
 ## Line Follower - [Line_Sensor.py](https://github.com/SolisTecnologia/SoBot-Line-Follower/blob/master/Line_Sensor.py)
 Programming example for the Solis robot to move following a line.
 
-This example uses 3 line sensors where the middle sensor reads black line and the tip sensors read the white floor.
+This example uses 3 line sensors where the middle sensor reads black line and the tip sensors read the white floor to move.
 
 ### Programming Language
 
