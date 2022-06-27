@@ -53,7 +53,7 @@ usb.write(b"MT0 MF")                # Move Forward
 usb.write(b"MT0 MP")                # Pause movement
 ~~~
 
-Commands are also used to control the lighting of the LED strip and the command to read the line sensors, as follows:
+Commands are also used to control the lighting of the LED tape and the command to read the line sensors, as follows:
 
 ~~~python
 usb.write(b"LT E1 RD0 GR50 BL0")    # Turn on led tape in green
@@ -74,10 +74,10 @@ For more information about the commands used, check the Robot Commands Reference
 ![](https://github.com/SolisTecnologia/SoBot-Line-Follower/blob/master/png/Flowchart_Line_Sensor.png)
 
 # Reference Link
-[SolisTecnologia website](https://solistecnologia.com.br/produtos/robotsingle)
+[SolisTecnologia website](https://solistecnologia.com/produtos/robotsingle)
 
 # Please Contact Us
-If you have any problem when using our robot after checking the tutorial, please contact us.
+If you have any problem when using our robot after checking this tutorial, please contact us.
 
 ### Phone:
 +55 1143040786
